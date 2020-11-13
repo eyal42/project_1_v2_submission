@@ -33,13 +33,6 @@ class BlockchainController {
             return res.status(200).send(JSON.stringify("Empty!!"));
         });
     }
-    // Hello GET endpoint
-    getHello() {
-        //console.log('#Hello');
-        this.app.get("/Hello", async (req, res) => {
-            return res.status(200).send(JSON.stringify("Hello!"));
-        });
-    }
     // Corrupt GET endpoint to triger corruption of the chain for validateChain testing
     tamperChain(){
         this.app.get("/tamper", async (req, res) => {
