@@ -3,11 +3,12 @@
 This directory includes the following:
 
 <ol>
- Implementation of the required methods in _block.js_ and _blockchain.js_ files:
+<li>Implementation of the required methods in _block.js_ and _blockchain.js_ files:
 <ol>
 <li> _block.js_: _validate_, _getBData_ </li>
 <li> _blockchain.js_: _addBlock, _requestMessageOwnershipVerification_, _submitStar_, _getBlockByHash_, _getBlockByHeight_, _getStarsByWalletAddress_, _validateChain_</li>
 </ol}>
+ </li>
 </ol}>
 2. Implementation of additinal methods in _blockchain.js_ and _BlockchainController.js_ files for testing purposes:
     a. _blockchain.js_: _tamperChain_
