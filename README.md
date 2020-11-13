@@ -2,7 +2,7 @@
 
 This directory includes the following:
 
-<ol}>
+<ol>
  Implementation of the required methods in _block.js_ and _blockchain.js_ files:
 <ol>
 <li> _block.js_: _validate_, _getBData_ </li>
