@@ -5,8 +5,8 @@ This directory includes the following:
 <ol>
 <li>Implementation of the required methods in _block.js_ and _blockchain.js_ files:
 <ol>
-<li> _block.js_: _validate_, _getBData_ </li>
-<li> _blockchain.js_: _addBlock, _requestMessageOwnershipVerification_, _submitStar_, _getBlockByHash_, _getBlockByHeight_, _getStarsByWalletAddress_, _validateChain_</li>
+<li> **block.js**: *validate, getBData* </li>
+<li> **blockchain.js**: *addBlock, requestMessageOwnershipVerification, submitStar, getBlockByHash, getBlockByHeight, getStarsByWalletAddress, validateChain* </li>
 </ol}>
  </li>
 </ol}>
