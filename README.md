@@ -3,23 +3,23 @@
 This directory includes the following:
 
 <ol>
-   <li>Implementation of the required methods in _block.js_ and _blockchain.js_ files:
+   <li>Implementation of the required methods in <em>block.js</em> and <em>blockchain.js</em> files:
    <ol>
-     <li> <strong><em>block.js</em></strong>: <em>validate, getBData</em></li>
-     <li> **blockchain.js**: *addBlock, requestMessageOwnershipVerification, submitStar, getBlockByHash, getBlockByHeight, getStarsByWalletAddress, validateChain*      </li>
+     <li> <strong>block.js</strong>: <em>validate, getBData</em></li>
+     <li> <strong>blockchain.js</strong>: <em>addBlock, requestMessageOwnershipVerification, submitStar, getBlockByHash, getBlockByHeight, getStarsByWalletAddress, validateChain</em></li>
     </ol>
    </li>
-<li> Implementation of additinal methods in _blockchain.js_ and _BlockchainController.js_ files for testing purposes:
+<li> Implementation of additinal methods in <em>blockchain.js</em> and <em>BlockchainController.js</em> files for testing purposes:
    <ol>
-   <li> _blockchain.js_: _tamperChain_ </li>
-   <li> _BlockchainController.js_: _getEmpty_, _tamperChain_, _validateChain_ </li>
+   <li> <strong>blockchain.js</strong>: <em>tamperChain</em></li>
+   <li> <strong>BlockchainController.js</strong>: <em>getEmpty, tamperChain, validateChain</em></li>
    </ol>
 </li>
 <li> Scripts for testing the implementation:
 <ol>
-<li> _registerCassiopeiaOnChain_: This script will do the following </li>
+<li> <strong>registerCassiopeiaOnChain</strong>: This script will do the following </li>
 <li>  load from the file cassiopeia_stars.json a list of 50 owners (names taken from a random name generator) with their WIF (again WIF addresses general from random strings) and a list of 315 stars from the Cassiopeia constellation with the relevant details and a randomly assgined owner </li>
 </ol>
 </li>
- <li>  For each star and assigned owner ask for a validation message from the blockchain (_requestMessageOwnershipVerification_), sign the message and register the star (_submitStar_)
+ <li>  For each star and assigned owner ask for a validation message from the blockchain (<em>requestMessageOwnershipVerification</em>), sign the message and register the star (<em>submitStar</em>)
 </ol>
