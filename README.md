@@ -1,16 +1,15 @@
 # Udacity Project 1: Private Blockchain Application
 
 This directory includes the following:
-
 <ol>
-    <li>Implementation of the required methods in <em>block.js</em> and <em>blockchain.js</em> files:
-        <ol>
-         <li> <strong>block.js</strong>: <em>validate, getBData</em></li>
-         <li> <strong>blockchain.js</strong>: <em>addBlock, requestMessageOwnershipVerification, submitStar, getBlockByHash, getBlockByHeight, getStarsByWalletAddress, validateChain</em></li>
+    <li>Implementation of the <strong style="color:Tomato;">required methods</strong> in <em>block.js</em> and <em>blockchain.js</em> files:
+        <ol style="color:SlateGray">
+            <li> <strong>block.js</strong>: <em>validate, getBData</em></li>
+            <li> <strong>blockchain.js</strong>: <em>addBlock, requestMessageOwnershipVerification, submitStar, getBlockByHash, getBlockByHeight, getStarsByWalletAddress, validateChain</em></li>
         </ol>
     </li>
-    <li> Implementation of additinal methods in <em>blockchain.js</em> and <em>BlockchainController.js</em> files for testing purposes:
-       <ol>
+    <li> Implementation of <strong style="color:Tomato;">additinal testing methods</strong> in <em>blockchain.js</em> and <em>BlockchainController.js</em> files:
+       <ol style="color:SlateGray">
        <li> <strong>blockchain.js</strong>:
         <ol>
             <li><em>tamperChain</em>: a function looping through the chain corrupting the <em>hash</em> every 113 blocks and <em>previousBlockHash</em> every 31 </li>
@@ -25,8 +24,8 @@ This directory includes the following:
         </li>
        </ol>
     </li>
-    <li> Scripts for testing the implementation:
-    <ol>
+    <li> Scripts for <strong style="color:Tomato;">testing</strong> the implementation:
+    <ol  style="color:SlateGray">
         <li> <strong>registerCassiopeiaOnChain.js</strong>: This script will do the following:
         <ol>
             <li>  Load from the file cassiopeia_stars.json a list of 50 owners (names taken from a random name generator) with their WIF (again WIF addresses general from random strings) and a list of 315 stars from the Cassiopeia constellation with the relevant details and a randomly assgined owner </li>
