@@ -9,7 +9,7 @@ needle('get', 'http://localhost:8000/block/height:'+arguments[2], { json: true }
             console.log(JSON.parse(hex2ascii(res.body.body)));
         }
         else{
-            console.log('Problem!')
+            console.log('Status Code:',res.statusCode,' ',res.body)
         }
     }).catch(err => {
         console.log(err);

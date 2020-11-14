@@ -6,7 +6,7 @@ needle('get', 'http://localhost:8000/block/hash:'+'887de98ea9aee704f889212b037db
             console.log(res.body);
         }
         else{
-            console.log('Problem! statusCode:',res.statusCode)
+            console.log('Status Code:',res.statusCode,' ',res.body)
         }
     }).catch(err => {
         console.log(err);

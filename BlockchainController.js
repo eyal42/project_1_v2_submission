@@ -18,7 +18,6 @@ class BlockchainController {
         this.getBlockByHash();
         this.getStarsByOwner();
         this.getEmpty();
-        this.getHello();
         this.tamperChain();
         this.validateChain();
     }
