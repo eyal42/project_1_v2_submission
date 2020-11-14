@@ -131,7 +131,8 @@ class Blockchain {
                 await this._addBlock(block);
                 resolve(block);
             } else {
-                resolve(null);
+                resolve.status(500).send("Error! Unable to add block")
+                //resolve(null);
             }
         });
     }

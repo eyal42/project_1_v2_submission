@@ -71,9 +71,10 @@ class Block {
         // Parse the data to an object to be retrieve.
 
         // Resolve with the data if the object isn't the Genesis block
+        // In case of Gensis block will  rerject with an error
         return new Promise((resolve, reject) => {
             if (this.height===0){
-                resolve(null);
+                resolve.status(500).send(err);
             }
             else{
                 try{

@@ -95,7 +95,7 @@ class BlockchainController {
                     if(block){
                         return res.status(200).json(block);
                     } else {
-                        return res.status(500).send("An error happened!");
+                        return res.status(500).send("Error! Unable to add block");
                     }
                 } catch (error) {
                     return res.status(500).send(error);
