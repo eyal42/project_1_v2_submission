@@ -25,7 +25,7 @@ This directory includes the following:
        </ol>
     </li>
     <li> Scripts for <strong style="color:Tomato;">testing</strong> the implementation:
-    <ol  style="color:SlateGray">
+    <ol style="color:SlateGray">
         <li> <strong>registerCassiopeiaOnChain.js</strong>: This script will do the following:
         <ol>
             <li>  Load from the file cassiopeia_stars.json a list of 50 owners (names taken from a random name generator) with their WIF (again WIF addresses general from random strings) and a list of 315 stars from the Cassiopeia constellation with the relevant details and a randomly assgined owner </li>
@@ -38,6 +38,12 @@ This directory includes the following:
         <li> <strong>getStarsByWalletAddress.js</strong>: Return the list of stars owned by the given address</li>
         <li> <strong>validityCheck.js</strong>: Returns a list of tampered blocks, either the <em>hash</em> entry not coresponding to the hash of the block (wthout the hash entry) or <em>previousBlockHash</em> entry not corresponding to hash entry of previous block</li>
         <li> <strong>tamperChain.js</strong>: This script modifies the hash entry for every 113 blocks and every <em>previousBlockHash</em> every 31 blocks</li>
+    </ol>
+    </li>
+    <li>Test <strong style="color:Tomato;">screenshots</strong>:
+    <ol style="color:SlateGray">
+        <li> Scripts: snapshots of console for command line runs of test scripts </li>
+        <li> Postman: snapshots of desktop Postman app sending POST and GET queries to blockchain </li>
     </ol>
     </li>
 </ol>
