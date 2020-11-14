@@ -37,7 +37,7 @@ This directory includes the following:
         <li> <strong>retrieveBodyByHeight.js</strong>: retrieve and decode the data in the block at the requested height or return error</li>
         <li> <strong>getStarsByWalletAddress.js</strong>: Return the list of stars owned by the given address</li>
         <li> <strong>validityCheck.js</strong>: Returns a list of tampered blocks, either the <em>hash</em> entry not coresponding to the hash of the block (wthout the hash entry) or <em>previousBlockHash</em> entry not corresponding to hash entry of previous block</li>
-        <li> <strong>tamperChain.js</strong>: This script modifies the hash entry for every 113 blocks and every <em>previousBlockHash</em> every 31 blocks</li>
+        <li> <strong>tamperChain.js</strong>: This script modifies the hash entry for every 113 blocks (invalidating the following block as well due to <em>previousBlockHash</em> mismatch) and every <em>previousBlockHash</em> every 31 blocks</li>
     </ol>
     </li>
     <li>Test <strong style="color:Tomato;">screenshots</strong>:

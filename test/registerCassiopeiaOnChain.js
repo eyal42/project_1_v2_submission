@@ -34,6 +34,7 @@ async function getMsg(mykey,star){
     message=await getAddressVerificationMessage(mykey.address);
     ans=await signMessage(mykey,message);
     ans.star=star;
+    //console.log(JSON.stringify(ans));
     submission=await submitStar(ans);
     res(submission)
   })
