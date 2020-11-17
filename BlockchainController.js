@@ -1,6 +1,5 @@
 /**
  *          BlockchainController
- *       (Do not change this code)
  * 
  * This class expose the endpoints that the client applications will use to interact with the 
  * Blockchain dataset
@@ -32,7 +31,7 @@ class BlockchainController {
             return res.status(200).send(JSON.stringify("Empty!!"));
         });
     }
-    // Corrupt GET endpoint to triger corruption of the chain for validateChain testing
+    // Tamper GET endpoint to triger corruption of the chain for validateChain testing
     tamperChain(){
         this.app.get("/tamper", async (req, res) => {
             let tamperLog= await this.blockchain.tamperChain();
